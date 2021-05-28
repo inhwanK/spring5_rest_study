@@ -1,0 +1,101 @@
+[DEBUG] [2021-05-28 10:01] testDataSource()
+[DEBUG] [2021-05-28 10:01] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-05-28 10:01] LoginTimeout 30
+[DEBUG] [2021-05-28 10:01] testOpenSession()
+[DEBUG] [2021-05-28 10:01] session org.apache.ibatis.session.defaults.DefaultSqlSession@3eeeee95
+[DEBUG] [2021-05-28 10:18] testDataSource()
+[DEBUG] [2021-05-28 10:18] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-05-28 10:18] LoginTimeout 30
+[DEBUG] [2021-05-28 10:18] testOpenSession()
+[DEBUG] [2021-05-28 10:18] session org.apache.ibatis.session.defaults.DefaultSqlSession@1be3f6e6
+[DEBUG] [2021-05-28 10:19] testDataSource()
+[DEBUG] [2021-05-28 10:19] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-05-28 10:19] LoginTimeout 30
+[DEBUG] [2021-05-28 10:19] testOpenSession()
+[DEBUG] [2021-05-28 10:19] session org.apache.ibatis.session.defaults.DefaultSqlSession@fb3d86b
+[DEBUG] [2021-05-28 10:22] testDataSource()
+[DEBUG] [2021-05-28 10:22] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-05-28 10:22] LoginTimeout 30
+[DEBUG] [2021-05-28 10:22] testOpenSession()
+[DEBUG] [2021-05-28 10:22] session org.apache.ibatis.session.defaults.DefaultSqlSession@4ac3a56
+[DEBUG] [2021-05-28 10:29] test1SelectMemberAll()
+[DEBUG] [2021-05-28 10:29] test2InsertMember()
+[DEBUG] [2021-05-28 10:29] test3SelectMemberById()
+[DEBUG] [2021-05-28 10:29] test4UpdateMember()
+[DEBUG] [2021-05-28 10:29] test5DeleteMember()
+[DEBUG] [2021-05-28 10:30] test1SelectMemberAll()
+[DEBUG] [2021-05-28 10:30] test2InsertMember()
+[DEBUG] [2021-05-28 10:30] test3SelectMemberById()
+[DEBUG] [2021-05-28 10:30] test4UpdateMember()
+[DEBUG] [2021-05-28 10:30] test5DeleteMember()
+[DEBUG] [2021-05-28 10:30] testDataSource()
+[DEBUG] [2021-05-28 10:30] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-05-28 10:30] LoginTimeout 30
+[DEBUG] [2021-05-28 10:30] testOpenSession()
+[DEBUG] [2021-05-28 10:30] session org.apache.ibatis.session.defaults.DefaultSqlSession@88ccdc9
+[DEBUG] [2021-05-28 10:31] test1SelectMemberAll()
+[DEBUG] [2021-05-28 10:31] test2InsertMember()
+[DEBUG] [2021-05-28 10:31] test3SelectMemberById()
+[DEBUG] [2021-05-28 10:31] test4UpdateMember()
+[DEBUG] [2021-05-28 10:31] test5DeleteMember()
+[DEBUG] [2021-05-28 10:31] testDataSource()
+[DEBUG] [2021-05-28 10:31] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-05-28 10:31] LoginTimeout 30
+[DEBUG] [2021-05-28 10:31] testOpenSession()
+[DEBUG] [2021-05-28 10:31] session org.apache.ibatis.session.defaults.DefaultSqlSession@88ccdc9
+[DEBUG] [2021-05-28 10:33] test1SelectMemberAll()
+[DEBUG] [2021-05-28 10:33] ==>  Preparing: SELECT id, email, password, name, regdate FROM member
+[DEBUG] [2021-05-28 10:33] ==> Parameters: 
+[TRACE] [2021-05-28 10:33] <==    Columns: id, email, password, name, regdate
+[TRACE] [2021-05-28 10:33] <==        Row: 20, inhan1009@naver.com, 1234, ±èÀÎÈ¯, 2021-05-21 11:08:10.0
+[TRACE] [2021-05-28 10:33] <==        Row: 21, 1231231241, 123, ±èÀÎÈ¯, 2021-05-21 12:44:58.0
+[TRACE] [2021-05-28 10:33] <==        Row: 22, inhan1009, 12314, 1234, 2021-05-21 14:55:50.0
+[TRACE] [2021-05-28 10:33] <==        Row: 23, 123123, asdf, asdf, 2021-05-21 14:58:31.0
+[TRACE] [2021-05-28 10:33] <==        Row: 24, 123123asdf, 1234, 123, 2021-05-21 15:01:58.0
+[TRACE] [2021-05-28 10:33] <==        Row: 25, inhan1007@nate.com, asdf, sadf, 2021-05-21 15:02:54.0
+[TRACE] [2021-05-28 10:33] <==        Row: 26, asdfasdfas, asdf, asdf, 2021-05-21 15:04:42.0
+[TRACE] [2021-05-28 10:33] <==        Row: 27, asdfasdfasdfasdf, asdf, asdf, 2021-05-21 15:06:20.0
+[TRACE] [2021-05-28 10:33] <==        Row: 28, asdfasdgasgzxxcv, fe, asdfagh, 2021-05-21 15:07:43.0
+[TRACE] [2021-05-28 10:33] <==        Row: 29, asdfgahvbxvcb, zx, sadfasgcxv, 2021-05-21 15:09:05.0
+[TRACE] [2021-05-28 10:33] <==        Row: 30, asdfag, zxcv, zxcv, 2021-05-21 15:11:55.0
+[TRACE] [2021-05-28 10:33] <==        Row: 31, , , , 2021-05-23 21:04:20.0
+[TRACE] [2021-05-28 10:33] <==        Row: 32, asdf, 456123, ±èÀÎÈ¯, 2021-05-24 10:41:10.0
+[TRACE] [2021-05-28 10:33] <==        Row: 34, test1234@test.co.kr, 1111, test100, 2021-05-27 11:54:24.0
+[TRACE] [2021-05-28 10:33] <==        Row: 35, test123411232323@test.co.kr, 1111, test100121233, 2021-05-27 18:03:59.0
+[DEBUG] [2021-05-28 10:33] <==      Total: 15
+[DEBUG] [2021-05-28 10:33] Member [id=20, email=inhan1009@naver.com, password=1234, name=±èÀÎÈ¯, registerDateTime=2021-05-21T11:08:10]
+[DEBUG] [2021-05-28 10:33] Member [id=21, email=1231231241, password=123, name=±èÀÎÈ¯, registerDateTime=2021-05-21T12:44:58]
+[DEBUG] [2021-05-28 10:33] Member [id=22, email=inhan1009, password=12314, name=1234, registerDateTime=2021-05-21T14:55:50]
+[DEBUG] [2021-05-28 10:33] Member [id=23, email=123123, password=asdf, name=asdf, registerDateTime=2021-05-21T14:58:31]
+[DEBUG] [2021-05-28 10:33] Member [id=24, email=123123asdf, password=1234, name=123, registerDateTime=2021-05-21T15:01:58]
+[DEBUG] [2021-05-28 10:33] Member [id=25, email=inhan1007@nate.com, password=asdf, name=sadf, registerDateTime=2021-05-21T15:02:54]
+[DEBUG] [2021-05-28 10:33] Member [id=26, email=asdfasdfas, password=asdf, name=asdf, registerDateTime=2021-05-21T15:04:42]
+[DEBUG] [2021-05-28 10:33] Member [id=27, email=asdfasdfasdfasdf, password=asdf, name=asdf, registerDateTime=2021-05-21T15:06:20]
+[DEBUG] [2021-05-28 10:33] Member [id=28, email=asdfasdgasgzxxcv, password=fe, name=asdfagh, registerDateTime=2021-05-21T15:07:43]
+[DEBUG] [2021-05-28 10:33] Member [id=29, email=asdfgahvbxvcb, password=zx, name=sadfasgcxv, registerDateTime=2021-05-21T15:09:05]
+[DEBUG] [2021-05-28 10:33] Member [id=30, email=asdfag, password=zxcv, name=zxcv, registerDateTime=2021-05-21T15:11:55]
+[DEBUG] [2021-05-28 10:33] Member [id=31, email=, password=, name=, registerDateTime=2021-05-23T21:04:20]
+[DEBUG] [2021-05-28 10:33] Member [id=32, email=asdf, password=456123, name=±èÀÎÈ¯, registerDateTime=2021-05-24T10:41:10]
+[DEBUG] [2021-05-28 10:33] Member [id=34, email=test1234@test.co.kr, password=1111, name=test100, registerDateTime=2021-05-27T11:54:24]
+[DEBUG] [2021-05-28 10:33] Member [id=35, email=test123411232323@test.co.kr, password=1111, name=test100121233, registerDateTime=2021-05-27T18:03:59]
+[DEBUG] [2021-05-28 10:33] test2InsertMember()
+[DEBUG] [2021-05-28 10:33] ==>  Preparing: insert into member (email, password, name, regdate) values (?, ?, ?, now())
+[DEBUG] [2021-05-28 10:33] ==> Parameters: test20@test.co.kr(String), 1111(String), test20(String)
+[DEBUG] [2021-05-28 10:33] <==    Updates: 1
+[DEBUG] [2021-05-28 10:33] test3SelectMemberById()
+[DEBUG] [2021-05-28 10:33] ==>  Preparing: SELECT id, email, password, name, regdate FROM member WHERE id = ?
+[DEBUG] [2021-05-28 10:33] ==> Parameters: 2(Long)
+[DEBUG] [2021-05-28 10:33] <==      Total: 0
+[DEBUG] [2021-05-28 10:33] test4UpdateMember()
+[DEBUG] [2021-05-28 10:33] ==>  Preparing: update member set name=?, password=? where email=?
+[DEBUG] [2021-05-28 10:33] ==> Parameters: Å×½ºÆ®20(String), 2222(String), test20@test.co.kr(String)
+[DEBUG] [2021-05-28 10:33] <==    Updates: 1
+[DEBUG] [2021-05-28 10:33] test5DeleteMember()
+[DEBUG] [2021-05-28 10:33] ==>  Preparing: delete from member where email=?
+[DEBUG] [2021-05-28 10:33] ==> Parameters: test20@test.co.kr(String)
+[DEBUG] [2021-05-28 10:33] <==    Updates: 1
+[DEBUG] [2021-05-28 10:33] testDataSource()
+[DEBUG] [2021-05-28 10:33] DataSource HikariDataSource (HikariPool-1)
+[DEBUG] [2021-05-28 10:33] LoginTimeout 30
+[DEBUG] [2021-05-28 10:33] testOpenSession()
+[DEBUG] [2021-05-28 10:33] session org.apache.ibatis.session.defaults.DefaultSqlSession@46b231f6
